@@ -152,23 +152,73 @@ Only keeping the fleeting flairs of these pieces.
 
 ---
 
+<!-- Author: Vaclav Smil -->
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure class="text-center">
-            {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-            <figcaption>On the left, a road goes through a tunnel.</figcaption>
+            <a href="https://example.com/url1" target="_blank" rel="noopener noreferrer">
+                {% include figure.liquid loading="eager" path="assets/img/book/energy-and-civilization.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </a>
+            <figcaption>Energy and Civilization: A History (Vaclav Smil)</figcaption>
         </figure>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <figure class="text-center">
-            {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-            <figcaption>Middle, leaves artistically fall in a hipster photoshoot.</figcaption>
+            <a href="https://example.com/url2" target="_blank" rel="noopener noreferrer">
+                {% include figure.liquid loading="eager" path="assets/img/book/natural-gas.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </a>
+            <figcaption>Natural Gas</figcaption>
         </figure>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <figure class="text-center">
-            {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-            <figcaption>Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.</figcaption>
+            <a href="https://example.com/url3" target="_blank" rel="noopener noreferrer">
+                {% include figure.liquid loading="eager" path="assets/img/book/numbers-dont-lie.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </a>
+            <figcaption>Numbers Don't Lie</figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/book/materials-dematerialization.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Materials and Dematerialization: Making the Modern World</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/book/invention-and-innovation.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Invention and Innovation: A Brief History of Hype and Failure.</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/book/growth.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Growth</figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/book/oil.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Oil</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/book/size.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Size: How it explains the world</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/book/still-the-iron-age.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Still the Iron Age: Iron and Steel in the Modern World</figcaption>
         </figure>
     </div>
 </div>
