@@ -3,7 +3,7 @@ layout: page
 permalink: /bookshelf/
 title: Bookshelf
 description: 
-nav: false
+nav: true
 nav_order: 6
 toc:
     sidebar: left
@@ -147,5 +147,28 @@ Only keeping the fleeting flairs of these pieces.
     <div class="col-sm-8">
         <h3>The Trail</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum nisl nec ipsum fermentum, at suscipit ligula hendrerit. Aliquam erat volutpat. Nullam volutpat risus ac justo volutpat, ac tincidunt justo fermentum. Ut sit amet pharetra magna. Cras porta mi sit amet finibus tincidunt. Donec sit amet justo nec sapien laoreet mollis. Nam et quam quis justo dapibus feugiat nec vitae ex. Proin eu nisl ut ante fringilla suscipit. Donec ullamcorper enim quis eleifend posuere.</p>
+    </div>
+</div>
+
+---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>On the left, a road goes through a tunnel.</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Middle, leaves artistically fall in a hipster photoshoot.</figcaption>
+        </figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure class="text-center">
+            {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            <figcaption>Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.</figcaption>
+        </figure>
     </div>
 </div>

@@ -289,7 +289,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["code", "deep-learning", "math", "research", "art"] # these tags will be displayed on the front page of your blog
-display_categories: ["Articles", "Books", "Review", "Notes"] # these categories will be displayed on the front page of your blog
+display_categories: ["Articles", "Books", "Notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
