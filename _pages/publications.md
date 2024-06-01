@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: Research
 description: Papers under review/submission and pre-prints are available upon request.
 nav: true
 nav_order: 2

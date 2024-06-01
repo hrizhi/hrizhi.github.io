@@ -1,18 +1,22 @@
 ---
-layout: post
-title: "Reading"
-date: 2024-05-19
-featured: true
-published: true
-category: Books Review
-related_posts: false
-thumbnail: assets/img/book/stack.jpg
-# class: post-template
+layout: page
+permalink: /bookshelf/
+title: Bookshelf
+description: 
+nav: false
+nav_order: 6
 toc:
     sidebar: left
-description: >
-    A personal reading list.
 ---
+
+> "Humans are obsessed with escapism through **movies**, **books**, **music**, **art**, daydreams, our souls weren't made for this world."
+> 
+> -- *Read somewhere, I don't remember 💭*
+
+---
+
+Only keeping the fleeting flairs of these pieces.
+
 ---
 
 <b class="satisfy-regular red-text">Why do you read?</b>
@@ -145,32 +149,3 @@ description: >
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum nisl nec ipsum fermentum, at suscipit ligula hendrerit. Aliquam erat volutpat. Nullam volutpat risus ac justo volutpat, ac tincidunt justo fermentum. Ut sit amet pharetra magna. Cras porta mi sit amet finibus tincidunt. Donec sit amet justo nec sapien laoreet mollis. Nam et quam quis justo dapibus feugiat nec vitae ex. Proin eu nisl ut ante fringilla suscipit. Donec ullamcorper enim quis eleifend posuere.</p>
     </div>
 </div>
-
-<div class="row mt-3">
-    <div class="col-sm-4">
-        {% include figure.liquid path="assets/img/book/TheTrail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm-8">
-        <h3>The Trail</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum nisl nec ipsum fermentum, at suscipit ligula hendrerit. Aliquam erat volutpat. Nullam volutpat risus ac justo volutpat, ac tincidunt justo fermentum. Ut sit amet pharetra magna. Cras porta mi sit amet finibus tincidunt. Donec sit amet justo nec sapien laoreet mollis. Nam et quam quis justo dapibus feugiat nec vitae ex. Proin eu nisl ut ante fringilla suscipit. Donec ullamcorper enim quis eleifend posuere.</p>
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm-4">
-        {% include figure.liquid path="assets/img/book/TheTrail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm-8">
-        <h3>The Trail</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum nisl nec ipsum fermentum, at suscipit ligula hendrerit. Aliquam erat volutpat. Nullam volutpat risus ac justo volutpat, ac tincidunt justo fermentum. Ut sit amet pharetra magna. Cras porta mi sit amet finibus tincidunt. Donec sit amet justo nec sapien laoreet mollis. Nam et quam quis justo dapibus feugiat nec vitae ex. Proin eu nisl ut ante fringilla suscipit. Donec ullamcorper enim quis eleifend posuere.</p>
-    </div>
-</div>
-
----
-
-## Fiction
-
-
----
-
-<!-- 1. [Unnatural Selection: Choosing Boys Over Girls, and the Consequences of a World Full of Men](https://www.marahvistendahl.com/unnatural-selection) -->
