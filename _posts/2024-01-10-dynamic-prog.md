@@ -6,7 +6,7 @@ description: Setting up the foundations of Dynamic programming along with a gene
 tags: code, algorithms
 categories: Articles Notes
 related_posts: false
-featured: true
+featured: false
 published: true
 author: Hrishikesh
 mermaid:

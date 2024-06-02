@@ -222,3 +222,9 @@ Only keeping the fleeting flairs of these pieces.
         </figure>
     </div>
 </div>
+
+
+
+---
+
+Got recommendations? <a href="mailto:hrishikesh.hsk@gmail.com">Drop me a note!</a>

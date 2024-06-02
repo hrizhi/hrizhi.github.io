@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DSA templates (Java)
+title: DSA Templates (Java)
 date: 2024-03-15 
 description: These are java code templates based on most common datastructures and algorithm problems.
 tags: code data-structures, algorithms
@@ -14,7 +14,6 @@ toc:
 *Caption: Flowchat for Characterization of Problem* -->
 
 ---
-
 ### Two pointers: one input, opposite ends
 
 ```java

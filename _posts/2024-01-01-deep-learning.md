@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: page
 title: "Deep Learning"
 date: 2024-01-01
-featured: false
+featured: true
 published: true
 tags: [deep-learning, math, code]
 category: [Notes]
@@ -14,7 +14,6 @@ thumbnail: assets/img/cover/deep-learning.jpg
 description: >
     A curated list of resources for a comprehensive understanding of deep learning.  
 ---
-
 
 
 ## Books 

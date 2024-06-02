@@ -6,7 +6,7 @@ description: A walk through guide for structuring your research
 tags: research
 categories: research
 featured: false
-
+published: false
 authors:
   - name: Hrishikesh Singh
     url: "https://hrish.in/"
