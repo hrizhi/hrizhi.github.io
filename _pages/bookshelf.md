@@ -53,7 +53,7 @@ Only keeping the fleeting flairs of these pieces.
 
 --- -->
 
-<h2> Non-Fiction </h2>
+<h2> Books: Non-Fiction </h2>
 
 <div class="row mt-3">
     <div class="col-sm-4">
@@ -226,24 +226,21 @@ Only keeping the fleeting flairs of these pieces.
 
 
 ---
-
-<h2> Courses </h2>
-
-<h3>Reinforcement Learning Course by David Silver</h3>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<h2> Books: Fiction </h2>
 
 ---
 
+<h2> Courses </h2>
+
+<h3><a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">Reinforcement Learning (DeepMind)</a></h3>
+
 <div class="row mt-3">
-    {% include video.liquid path="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/2pWv7GOvuf0" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <p>Instructor: <a href="https://www.davidsilver.uk/">David Silver</a></p>
+    <p>Even though the course is a little older(2013) but the explanations are completely on point and intuitive with a perfect balance of mathematics and visual explanation. David Silver for reinforcement learning is like Andrew Ng for classical machine learning. </p>
 </div>
-
-
 ---
 
 Got recommendations? <a href="mailto:hrishikesh.hsk@gmail.com">Drop me a note!</a>
