@@ -53,7 +53,7 @@ Only keeping the fleeting flairs of these pieces.
 
 --- -->
 
-## Non-Fiction
+<h2> Non-Fiction </h2>
 
 <div class="row mt-3">
     <div class="col-sm-4">
@@ -223,6 +223,25 @@ Only keeping the fleeting flairs of these pieces.
     </div>
 </div>
 
+
+
+---
+
+<h2> Courses </h2>
+
+<h3>Reinforcement Learning Course by David Silver</h3>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+---
+
+<div class="row mt-3">
+    {% include video.liquid path="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ" class="img-fluid rounded z-depth-1" %}
+</div>
 
 
 ---
