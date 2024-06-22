@@ -232,6 +232,8 @@ Only keeping the fleeting flairs of these pieces.
 
 <h2> Courses </h2>
 
+<br>
+
 <h3><a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">Reinforcement Learning (DeepMind)</a></h3>
 
 <div class="row mt-3">
@@ -255,15 +257,20 @@ Only keeping the fleeting flairs of these pieces.
 completely on point and intuitive with a perfect balance of mathematics and visual explanation.</p>
 <p>David Silver for reinforcement learning is like Andrew Ng for classical machine learning. </p>
 
-
-
 ---
 
-<div class="row mt-3">
-    {% include video.liquid path="https://www.youtube.com/embed/2pWv7GOvuf0" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/2pWv7GOvuf0" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-    
+
+<div class="caption">
+    A typical Convolutional Neural Network. Source: HML
+</div>
+
 Instructor: [David Silver](https://www.davidsilver.uk/)
+
 Even though the course is a little older(2013) but the explanations are completely on point and intuitive with a perfect balance of mathematics and visual explanation.
 *David Silver* for reinforcement learning is like *Andrew Ng* for classical machine learning.
 
