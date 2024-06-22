@@ -29,3 +29,10 @@ category: Finance
 - [ ] Link the code and repo
 
 
+
+#### Resources
+
+1. https://github.com/Kautenja/limit-order-book/blob/master/notes/lob.md
+2. https://gist.github.com/halfelf/db1ae032dc34278968f8bf31ee999a25
+3. [RL on Orderbook](https://stanford.edu/~ashlearn/RLForFinanceBook/chapter9.pdf)
+4. [Stanford](https://web.stanford.edu/class/cme241/lecture_slides/Tour-OrderBook.pdf)
