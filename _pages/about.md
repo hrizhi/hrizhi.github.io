@@ -7,7 +7,7 @@ subtitle: Researcher | <a href='https://www.iitr.ac.in/'>Indian Institute of Tec
 profile:
   align: right
   image: prof_pic_lib.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   # more_info: >
     # <center><p>Not me.</p></center>
     # <center><p>It's <a href="https://www.youtube.com/watch?v=wVEfFHzUby0">TARS</a>.</p></center>
@@ -17,25 +17,51 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<style>
+
+
+Hi there👋🏻,
+
+I'm working at the crossroads of helping machines learn visually and verbally, so they can help us solve our problems more efficiently.
+
+My research interests involve `deep learning`, `reinforcement learning`, `computer vision` in `GIS` and `finance`.
+
+Kindly reach out if I can be of any help to you.
+
+
+
+
+
+
+
+
+
+
+
+<!-- <style>
     .quote {
         font-family: 'Lucida', monospace;
         font-size: 14px;
         line-height: 1.3;
         margin-bottom: 10px;
     }
-</style>
+</style> -->
+
+
+
+
+<!-- 
 <div class="paragraph">
     <p>Hi there👋🏻,</p>
     <p>I'm working at the crossroads of helping machines learn visually and verbally so they can help us solve our problems more efficiently.</p>
-    <p>I like drawing and playing chess, a lot. So if you want a caricature or a chess bout, get in touch.</p>
-    <p>Nonetheless, reach out if I can be of any service to you.</p>
+    <p>My research interests involves ``
+    <p>Kindly reach out if I can be of any service to you.</p>
     <p>and yeah, here's a quote 👇🏻.</p>
-</div>
+</div> 
+-->
 
-<br>
+<!-- <br> -->
 
----
+<!-- ---
 
 <div class="quote">
     <p><em>"The <b>Internet</b> is <b>self-destructing paper</b>. A place where anything written is soon destroyed by rapacious competition and the only preservation is to forever copy writing from sheet to sheet faster than they can burn.</em></p>
@@ -45,4 +71,4 @@ social: true # includes social icons at the bottom of the page
     <p>--<a href="https://en.wikipedia.org/wiki/Julian_Assange"><strong><em>Julian Assange</em></strong></a> (“Self destructing paper”, 2006-12-05)</p>
 </div>
 
---- 
+---  -->
