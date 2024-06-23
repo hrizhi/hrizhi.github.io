@@ -6,7 +6,7 @@ subtitle: Researcher | <a href='https://www.iitr.ac.in/'>Indian Institute of Tec
 
 profile:
   align: right
-  image: prof_pic_lib.jpg
+  image: snapshot.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
     # <center><p>Not me.</p></center>
