@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-
+<br>
 
 Hi there👋🏻,
 
@@ -27,6 +27,43 @@ My research interests involve `deep learning`, `reinforcement learning`, `comput
 
 Kindly reach out if I can be of any help to you.
 
+
+<br>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Text Example</title>
+    <link href="https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+    <style>
+        .handwriting {
+            font-family: 'The Girl Next Door', cursive;
+            font-size: 1.5em;
+            line-height: 1.6;
+            margin: 20px;
+            white-space: pre-wrap; /* Preserves whitespace and line breaks */
+            font-weight: 550; /* Adjust the font weight here */
+        }
+        .highlight {
+            color: darkblue;
+            font-weight: bold; /* Keeps highlighted text bold */
+        }
+    </style>
+</head>
+
+<body>
+<div class="handwriting">
+
+Hi there,
+
+I'm working at the crossroads of helping machines learn visually and verbally, so they can help us solve our problems more efficiently.
+
+My research interests involve <span class="highlight">deep learning</span>, <span class="highlight">reinforcement learning</span>, and <span class="highlight">computer vision</span> in GIS and finance.
+
+Kindly reach out if I can be of any help to you.
+
+</div>
+</body>
 
 
 

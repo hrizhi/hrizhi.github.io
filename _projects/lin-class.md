@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Classifier from Scratch
-description: Designing a linear classifier from scratch. 
-img: assets/img/project/linear-classifier.png
+title: Vanilla Classifier
+description: Designed a linear classifier from scratch. 
+# img: assets/img/project/linear-classifier.png
 importance: 4
 category: AI
 giscus_comments: false
