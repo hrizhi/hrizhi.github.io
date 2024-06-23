@@ -27,8 +27,10 @@ My research interests involve `deep learning`, `reinforcement learning`, `comput
 
 Kindly reach out if I can be of any help to you.
 
-
 <br>
+
+
+<!-- 
 
 <head>
     <meta charset="UTF-8">
@@ -69,7 +71,7 @@ Kindly reach out if I can be of any help to you.
 
 
 
-
+ -->
 
 
 
