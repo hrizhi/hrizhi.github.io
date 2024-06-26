@@ -19,13 +19,20 @@ social: true # includes social icons at the bottom of the page
 
 <br>
 
-Hi there👋🏻,
+Hi there,
 
-I'm working at the crossroads of helping machines learn visually and verbally, so they can help us solve our problems more efficiently.
+I'm Hrishikesh <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
 
-My research interests involve `deep learning`, `reinforcement learning`, `computer vision` in `GIS` and `finance`.
+My research interests involve `deep learning`, `reinforcement learning`, *in* `computer vision`, `game-theory` and `natural-language-processing`.
 
-Kindly reach out if I can be of any help to you.
+Currently working on `IRSTD` *i.e.* Infrared Small Target Detection *and* financial `portfolio-optimization` problems. 
+
+Kindly reach out if I can be of any help to you. 
+
+<audio id="pronunciation">
+  <source src="assets/audio/name.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 <br>
 
