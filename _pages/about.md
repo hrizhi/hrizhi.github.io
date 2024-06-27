@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi there,
 
-I'm Hrishikesh <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
+I'm $$Hrishikesh~Singh$$ <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
 
 My research interests involve `deep learning`, `reinforcement learning`, *in* `computer vision`, `game-theory` and `natural-language-processing`.
 
