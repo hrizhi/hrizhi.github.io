@@ -9,6 +9,8 @@ display_categories: [AI, Finance, Web, Archive, ]
 horizontal: false
 ---
 
+For codebase kindly visit [GitHub](https://github.com/hrishikeshh)
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

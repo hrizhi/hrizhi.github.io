@@ -17,9 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<br>
-
-Hi there,
+Hello,
 
 I'm $$Hrishikesh~Singh$$ <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
 

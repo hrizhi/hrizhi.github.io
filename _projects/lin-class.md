@@ -5,6 +5,7 @@ description: Designed a linear classifier from scratch.
 # img: assets/img/project/linear-classifier.png
 importance: 4
 category: AI
+published: false
 giscus_comments: false
 ---
 

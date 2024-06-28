@@ -5,7 +5,7 @@ description:  A Java Genetic Algorithm implementation with a focus on ease of us
 img: assets/img/vinci.jpg
 importance: 2
 redirect: https://github.com/hrishikeshh/vinci
-category: Web
+category: Archive
 related_publications: false
 ---
 
