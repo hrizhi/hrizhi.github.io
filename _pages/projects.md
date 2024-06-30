@@ -5,7 +5,7 @@ permalink: /projects/
 # description: 
 nav: true
 nav_order: 3
-display_categories: [AI, Finance, Web, Archive, ]
+display_categories: [AI, Finance, Archive, ]
 horizontal: false
 ---
 
