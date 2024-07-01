@@ -17,6 +17,10 @@ toc:
 
 ### Type-1: One Input, Opposite Ends
 
+{% tabs two-pointer %}
+
+{% tab two-pointer python %}
+
 ```python
 def fn(arr):
     left = ans = 0
@@ -31,6 +35,33 @@ def fn(arr):
     
     return ans
 ```
+
+{% endtab %}
+
+{% tab two-pointer java %}
+
+```java
+public int fn(int[] arr) {
+    int left = 0;
+    int right = arr.length - 1;
+    int ans = 0;
+    while (left < right) {
+        // do some logic here with left and right
+        if (CONDITION) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+    return ans;
+}
+```
+
+{% endtab %}
+
+{% endtabs %}
+
+
 
 ### Two pointers: Two Inputs, Exhaust Both
 
@@ -471,35 +502,35 @@ def fn(words):
 {% tab log java %}
 
 ```java
-// note: using a class is only necessary if you want to store data at each node.
-// otherwise, you can implement a trie using only hash maps.
-class TrieNode {
-    // you can store data at nodes if you wish
-    int data;
-    Map<Character, TrieNode> children;
-    TrieNode() {
-        this.children = new HashMap<>();
+    // note: using a class is only necessary if you want to store data at each node.
+    // otherwise, you can implement a trie using only hash maps.
+    class TrieNode {
+        // you can store data at nodes if you wish
+        int data;
+        Map<Character, TrieNode> children;
+        TrieNode() {
+            this.children = new HashMap<>();
+        }
     }
-}
 
-public TrieNode buildTrie(String[] words) {
-    TrieNode root = new TrieNode();
-    for (String word: words) {
-        TrieNode curr = root;
-        for (char c: word.toCharArray()) {
-            if (!curr.children.containsKey(c)) {
-                curr.children.put(c, new TrieNode());
+    public TrieNode buildTrie(String[] words) {
+        TrieNode root = new TrieNode();
+        for (String word: words) {
+            TrieNode curr = root;
+            for (char c: word.toCharArray()) {
+                if (!curr.children.containsKey(c)) {
+                    curr.children.put(c, new TrieNode());
+                }
+
+                curr = curr.children.get(c);
             }
 
-            curr = curr.children.get(c);
+            // at this point, you have a full word at curr
+            // you can perform more logic here to give curr an attribute if you want
         }
 
-        // at this point, you have a full word at curr
-        // you can perform more logic here to give curr an attribute if you want
+        return root;
     }
-
-    return root;
-}
 ```
 
 {% endtab %}
