@@ -48,6 +48,100 @@ toc:
 
 ## Algorithms
 
+---
+
+### Searching: Binary Search
+
+This is the fundamental template of the binary search algorithms which will evolve as per the requirements. 
+
+**A trick for analyzing binary search is to avoid else statements and write all cases with else if statements, so that all details can be clearly presented**
+
+Here in the Java code, `...` is the part where implementation can go wrong. Be careful.
+
+
+{% tabs pattern %}
+
+{% tab pattern python %}
+
+```python
+def binarySearch(nums: List[int], target: int) -> int:
+    left, right = 0, len(nums) - 1
+
+    while left <= right:
+        mid = left + (right - left) // 2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+```
+
+{% endtab %}
+
+{% tab pattern java %}
+
+```java
+int binarySearch(int[] nums, int target) {
+    int left = 0, right = ...;
+
+    while(...) {
+        int mid = left + (right - left) / 2;
+        if (nums[mid] == target) {
+            ...
+        } else if (nums[mid] < target) {
+            left = ...
+        } else if (nums[mid] > target) {
+            right = ...
+        }
+    }
+    return ...;
+}
+```
+
+{% endtab %}
+
+{% tab pattern cpp %}
+
+```cpp
+int binarySearch(vector<int>& nums, int target) {
+    int left = 0, right = nums.size() - 1;
+
+    while(left <= right) {
+        int mid = left + (right - left) / 2;
+        if (nums[mid] == target) {
+            ...
+        } else if (nums[mid] < target) {
+            left = mid + 1;
+        } else if (nums[mid] > target) {
+            right = mid - 1;
+        }
+    }
+    return ...;
+}
+```
+
+{% endtab %}
+
+
+{% endtabs %}
+
+> `mid = left + (right - left)/2` gives the same value as `(left + right)/2` but we prefer prior to avoid any overflow by addition. 
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -123,6 +217,14 @@ public int fn(int[] arr) {
 {% tab pattern java %}
 
 ```java
+
+```
+
+{% endtab %}
+
+{% tab pattern cpp %}
+
+```cpp
 
 ```
 
