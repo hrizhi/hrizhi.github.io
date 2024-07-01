@@ -8,7 +8,7 @@ categories: Code
 related_posts: false
 featured: false
 published: true
-
+tabs: true
 toc:
   sidebar: left
 ---
