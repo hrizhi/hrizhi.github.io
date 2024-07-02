@@ -127,25 +127,51 @@ int binarySearch(vector<int>& nums, int target) {
 
 {% endtabs %}
 
-> `mid = left + (right - left)/2` gives the same value as `(left + right)/2` but we prefer prior to avoid any overflow by addition. 
+- `mid = left + (right - left)/2` gives the same value as `(left + right)/2` but we prefer prior to avoid any overflow by addition. 
+
+---
+
+**Case 1: Basic Binary Search (Finding a Number)**
+
+{% tabs pattern %}
+
+{% tab pattern python %}
+
+```python
+
+```
+
+{% endtab %}
+
+{% tab pattern java %}
+
+```java
+
+```
+
+{% endtab %}
+
+{% tab pattern cpp %}
+
+```cpp
+
+```
+
+{% endtab %}
+
+{% endtabs %}
+
+
+
+
+
+
 
 
 
 ---
 
-
-
-
-
-
-
-
-
-
-
----
-
-# Problem Patterns
+## Problem Patterns
 
 ---
 

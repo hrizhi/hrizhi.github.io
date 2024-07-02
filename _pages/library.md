@@ -230,49 +230,32 @@ Only keeping the fleeting flairs of these pieces.
 
 ---
 
-<h2> Courses </h2>
+<h2> Learning Resources </h2>
 
 <br>
 
-<h3><a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">Reinforcement Learning (DeepMind)</a></h3>
 
-<div class="row mt-3">
-    <div class="col-sm">
-        {% include video.liquid path="https://www.youtube.com/embed/2pWv7GOvuf0" class="img-fluid rounded z-depth-1" %}
-    </div>
-    
-    <p>Instructor: <a href="https://www.davidsilver.uk/">David Silver</a></p>
-    <p>Even though the course is a little older(2013) but the explanations are 
-    completely on point and intuitive with a perfect balance of mathematics and visual explanation.</p>
-    <p>David Silver for reinforcement learning is like Andrew Ng for classical machine learning. </p>
-</div>
----
+### NLP
 
-<div class="row mt-3">
-    {% include video.liquid path="https://www.youtube.com/embed/2pWv7GOvuf0" class="img-fluid rounded z-depth-1" %}
-</div>
-    
-<p>Instructor: <a href="https://www.davidsilver.uk/">David Silver</a></p>
-<p>Even though the course is a little older(2013) but the explanations are 
-completely on point and intuitive with a perfect balance of mathematics and visual explanation.</p>
-<p>David Silver for reinforcement learning is like Andrew Ng for classical machine learning. </p>
+
+This is an unstructured list of resources for learning NLP *a.k.a.* Natural Language Processing, ranging from basics to advanced in not so particular order. 
+
+- [A visual introduction to layman verison of Generative AI](https://ig.ft.com/generative-ai/): This is an interactive article to explain the simplified innner working of LLM.
+- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196): A review paper presenting a comprehensive overview of LLMs. Weekend reading stuff. 
+- [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering): Assimilation of really valuable guidance. All you need to actually build real world application in production. 
+
+
+
 
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/2pWv7GOvuf0" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
-<div class="caption">
-    A typical Convolutional Neural Network. Source: HML
-</div>
+### Reinforcement Learning 
 
-Instructor: [David Silver](https://www.davidsilver.uk/)
-
-Even though the course is a little older(2013) but the explanations are completely on point and intuitive with a perfect balance of mathematics and visual explanation.
-*David Silver* for reinforcement learning is like *Andrew Ng* for classical machine learning.
+- [DeepMind](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ):
+    - Instructor: [David Silver](https://www.davidsilver.uk/)
+    - Even though the course is a little older(2013) but the explanations are completely on point and intuitive with a perfect balance of mathematics and visual explanation. *David Silver* for reinforcement learning is like *Andrew Ng* for classical machine learning.
 
 ---
+
 Got recommendations? <a href="mailto:hrishikesh.hsk@gmail.com">Drop me a note!</a>
