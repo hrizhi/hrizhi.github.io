@@ -9,13 +9,7 @@ toc:
     sidebar: left
 ---
 
-> "Humans are obsessed with escapism through **movies**, **books**, **music**, **art**, daydreams, our souls weren't made for this world."
-> 
-> -- *Read somewhere, I don't remember 💭*
-
----
-
-Only keeping the fleeting flairs of these pieces.
+> “One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.” ― *Carl Sagan*
 
 ---
 
@@ -26,6 +20,10 @@ Only keeping the fleeting flairs of these pieces.
 <p class="satisfy-regular">Philosophers a thousand years dead have shared their thoughts with me. I have watched over Heyerdahl's shoulder as he navigated the South seas on a raft. I've saved Fantastica with a wish, survived triffids and hunted the white whale.</p>
 
 <i class="satisfy-regular">Books take me places no train or plane ever will.</i>
+
+"Humans are obsessed with escapism through **movies**, **books**, **music**, **art**, daydreams, our souls weren't made for this world." -- *Read somewhere, I don't remember 💭*
+
+Only keeping the fleeting flairs of these pieces.
 
 --- 
 
