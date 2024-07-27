@@ -55,6 +55,16 @@ Only keeping the fleeting flairs of these pieces.
 
 <div class="row mt-3">
     <div class="col-sm-4">
+        {% include figure.liquid path="assets/img/book/the-story-of-philosophy.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-8">
+        <h3>The Story of Philosophy</h3>
+        <p>A friend recommended. A brilliant and concise account of the lives and ideas of the great philosophers—Plato, Aristotle, Bacon, Spinoza, Voltaire, Kant, Schopenhauer, Spencer, Nietzsche, Bergson, Croce, Russell, Santayana, James, and Dewey—The Story of Philosophy is one of the great books of our time. Few write for the non-specialist as well as Will Durant, and this book is a splendid example of his eminently readable scholarship. Durant’s insight and wit never cease to dazzle; The Story of Philosophy is a key book for any reader who wishes to survey the history and development of philosophical ideas in the Western world.</p>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm-4">
         {% include figure.liquid path="assets/img/book/1984.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-8">
