@@ -162,6 +162,9 @@ Only keeping the fleeting flairs of these pieces.
 
 <!-- Author: Vaclav Smil -->
 
+
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure class="text-center">
@@ -242,7 +245,12 @@ Only keeping the fleeting flairs of these pieces.
 
 <br>
 
+### Research Papers
 
+
+
+
+---
 ### NLP
 
 
@@ -266,4 +274,62 @@ This is an unstructured list of resources for learning NLP *a.k.a.* Natural Lang
 
 ---
 
+### WatchList
+
+In no *particular order* whatsoever
+
+- Interstellar
+- Tenet
+- Manchester by the Sea
+- Dallas Buyers Club (2013)
+- Hannibal 
+- Margin Call 
+- Breaking Bad
+- Normal People
+- The Shawshank Redemption (1994)
+
+- Schindler's List (1993)
+- 12 Angry Men (1957)
+- Batman Begins (2005), & The Dark Knight (2008)
+- The Usual Suspects (1995)
+- The Bourne Trilogy (2002, 04, 07)
+- Good Will Hunting (1997)
+- Ocean's Eleven (2001)
+- Apollo 13 (1995)
+- The Pursuit of Happyness (2006)
+- Cinderella Man (2005)
+- The World's Fastest Indian (2005)
+- Rudy (1993)
+- Up in the Air (2009)
+- Goodfellas (1990)
+- Hotel Rwanda (2004)
+- Inception (2010)
+- Thank You for Smoking (2005)
+- Inside Man (2006)
+- October Sky (1999)
+- Road to Perdition (2002)
+- Moneyball (2011)
+- Argo (2012)
+- Rush (2013)
+- Whiplash (2014)
+- Inside Out (2015)
+- Steve Jobs (2015)
+- Creed (2015)
+- The Big Short (2015)
+- Out of the Furnace (2013)
+- Million Dollar Baby (2004)
+- The Founder (2016)
+- The Prestige (2006)
+- Memento (2000)
+- The Social Network (2010)
+- Hurt Locker
+- The Secret Life of Walter Mitty
+- The Talented Mr Ripley
+- Se7en
+- Arrival
+
+
+
+
+---
 Got recommendations? <a href="mailto:hrishikesh.hsk@gmail.com">Drop me a note!</a>
