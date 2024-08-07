@@ -4,7 +4,7 @@ title: "Algorithms"
 date: 2024-06-20
 description: My notes of datastructures and algorithms. 
 featured: false
-published: true
+published: false
 tags: [algorithms, math, code]
 category: [Notes]
 related_posts: false
