@@ -251,8 +251,11 @@ Only keeping the fleeting flairs of these pieces.
 
 
 ---
-### NLP
+### CV & NLP
 
+- [An Open Course on LLMs, Led by Practitioners](https://hamel.dev/blog/posts/course/)
+- [What We’ve Learned From A Year of Building with LLMsw](https://applied-llms.org/)
+- [Extended Guide: Instruction-tune Llama 2](https://www.philschmid.de/instruction-tune-llama-2)
 
 This is an unstructured list of resources for learning NLP *a.k.a.* Natural Language Processing, ranging from basics to advanced in not so particular order. 
 
