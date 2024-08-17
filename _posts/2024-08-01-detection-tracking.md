@@ -3,7 +3,7 @@ layout: page
 title: "Evaluation metrics of Object Tracking Algorithms"
 date: 2024-08-01
 featured: false
-published: false
+published: true
 tags: [deep-learning, math, code]
 category: [Notes]
 related_posts: false
