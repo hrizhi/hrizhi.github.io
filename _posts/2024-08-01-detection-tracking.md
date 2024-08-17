@@ -18,6 +18,15 @@ toc:
 
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/video_traffic_2_retinanet_resnet50_fpn_v2_clip_RN50.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+<div class="caption">
+    Object detection & tracking demonstration.
+</div>
+
 ### Detection Metrics
   
 - Mean Square Error: x, y, w, h
@@ -73,28 +82,20 @@ So **Multiple Object Tracking Accuracy (MOTA)** is defined as
 
 $$MOTA = 1 - \frac{|FN| + |FP| + |IDSW|}{|gtDet|}$$
 
-here $IDSW$ is Identity Switch and $gtDet$ is Ground Truth Detection.
+here \(IDSW\) is Identity Switch and \(gtDet\) is Ground Truth Detection.
 
   - It is dependent on Sticky Hungarian Matching, current & previous frame and $IoU$ threshold (0.5).
 
 **Problems with MOTA**
 
 - IDSW contribute ~1% to metric
-  <!-- - ![](/assets/img/posts/metrics/HOTA.png)
-    <p align="center">
-    <img src="assets/img/posts/metrics/HOTA.png" alt="Description" width="400" height="200">
-    </p> -->
 
   <div class="row">
     {% include figure.liquid loading="eager" path="assets/img/posts/metrics/HOTA.png" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="caption">
-    Source: [*HOTA Paper.*](https://arxiv.org/abs/2009.07736#). A simple tracking example highlighting one of the main differences between evaluation metrics. Three different trackers are shown in order of increasing detection accuracy and decreasing association accuracy. MOTA and IDF1 overemphasize the effect of accurate detection and association respectively. HOTA balances both of these by being an explicit combination of a detection score DetA and an association score AssA.
-  </div>
 
+  Source: [*HOTA Paper.*](https://arxiv.org/abs/2009.07736#). A simple tracking example highlighting one of the main differences between evaluation metrics. Three different trackers are shown in order of increasing detection accuracy and decreasing association accuracy. MOTA and IDF1 overemphasize the effect of accurate detection and association respectively. HOTA balances both of these by being an explicit combination of a detection score DetA and an association score AssA.
 
-
-  <!-- - Source: [*HOTA Paper.*](https://arxiv.org/abs/2009.07736#) A simple tracking example highlighting one of the main differences between evaluation metrics. Three different trackers are shown in order of increasing detection accuracy and decreasing association accuracy. MOTA and IDF1 overemphasize the effect of accurate detection and association respectively. HOTA balances both of these by being an explicit combination of a detection score DetA and an association score AssA. -->
   - Does not take detection accuracy into account (beyond 0.5 IoU)
   - So researchers sometimes prefer Multiple Object Tracking Precision (*MOTP*)
     - $$MOTP = \frac{1}{|TP|}\sum_{TP} IoU$$
@@ -103,10 +104,6 @@ here $IDSW$ is Identity Switch and $gtDet$ is Ground Truth Detection.
   <div class="row">
     {% include figure.liquid loading="eager" path="assets/img/posts/metrics/IDF1.png" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-<!-- 
-    <p align="center">
-    <img src="assets/img/posts/metrics/IDF1.png" alt="Description" width="400" height="200">
-    </p> -->
 
   - In the above tracking example which shows how the single best trajectory matching, as performed by IDF1, can result in unintuitive matches between trajectories.
 
@@ -125,7 +122,7 @@ here $IDSW$ is Identity Switch and $gtDet$ is Ground Truth Detection.
 
   - **Identification Recall** (IDR): The proportion of correctly identified ground truth objects relative to the total number of ground truth objects.
 
-$$IDF1 = 2 X \frac{IDP X IDR}{IDP + IDR}$$
+$$IDF1 = 2 X \frac{IDP~X~IDR}{IDP + IDR}$$
 
 ---
 
