@@ -7,10 +7,10 @@ published: true
 tags: [deep-learning, math, code]
 category: [Notes]
 related_posts: false
-thumbnail: assets/img/cover/deep-learning.jpg
+thumbnail: assets/img/cover/tracking.jpeg
 # class: post-template
-# toc:
-#     sidebar: left
+toc:
+    sidebar: right
 # description: >
 #     A curated list of resources for a comprehensive understanding of deep learning.  
 
@@ -21,6 +21,8 @@ thumbnail: assets/img/cover/deep-learning.jpg
 - Mean Square Error: x, y, w, h
 - L1-Loss
 - IoU: Generally good for small target, Normalized [0 -> 1].
+
+---
 
 ### Multiple Object Detection
 
@@ -43,6 +45,8 @@ thumbnail: assets/img/cover/deep-learning.jpg
   - Depends on Hungarian matching
   - Depends on IoU threshold (0.5)
   - Good way since it pensalizes you for missing objects, detecting same object twice, or objects that are not there or inaccurately.
+
+---
 
 ### Multiple Object Tracking Benchmarking (MOT)
 
@@ -76,7 +80,7 @@ here $IDSW$ is Identity Switch and $gtDet$ is Ground Truth Detection.
 - IDSW contribute ~1% to metric
   <!-- - ![](/assets/img/posts/metrics/HOTA.png) -->
     <p align="center">
-    <img src="../assets/img/posts/metrics/HOTA.png" alt="Description" width="400" height="200">
+    <img src="assets/img/posts/metrics/HOTA.png" alt="Description" width="400" height="200">
     </p>
 
   - Source: [*HOTA Paper.*](https://arxiv.org/abs/2009.07736#) A simple tracking example highlighting one of the main differences between evaluation metrics. Three different trackers are shown in order of increasing detection accuracy and decreasing association accuracy. MOTA and IDF1 overemphasize the effect of accurate detection and association respectively. HOTA balances both of these by being an explicit combination of a detection score DetA and an association score AssA.
@@ -89,7 +93,7 @@ here $IDSW$ is Identity Switch and $gtDet$ is Ground Truth Detection.
 
 
     <p align="center">
-    <img src="../assets/img/posts/metrics/IDF1.png" alt="Description" width="400" height="200">
+    <img src="assets/img/posts/metrics/IDF1.png" alt="Description" width="400" height="200">
     </p>
 
   - In the above tracking example which shows how the single best trajectory matching, as performed by IDF1, can result in unintuitive matches between trajectories.
