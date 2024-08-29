@@ -263,7 +263,7 @@ This is an unstructured list of resources for learning NLP *a.k.a.* Natural Lang
 - [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196): A review paper presenting a comprehensive overview of LLMs. Weekend reading stuff. 
 - [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering): Assimilation of really valuable guidance. All you need to actually build real world application in production. 
 
-
+- [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 
 
 ---
