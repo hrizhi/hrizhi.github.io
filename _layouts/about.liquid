@@ -70,6 +70,7 @@ layout: default
     {% endif %}
 
     <!-- Social -->
+    {% comment %} 
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -77,5 +78,6 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+    {% endcomment %}
   </article>
 </div>
