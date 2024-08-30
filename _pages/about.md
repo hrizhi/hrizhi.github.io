@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher | <a href='https://www.iitr.ac.in/'>Indian Institute of Technology - Roorkee</a>
+subtitle: Machine Learning Researcher @ <a href='https://www.iitr.ac.in/'>IIT-R</a>
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 Hello,
 
-I'm *assuming*... you want to know who I am.
+Hey, thanks for stopping by! 👋
 
 I'm **Hrishikesh Singh** <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
 
