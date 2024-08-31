@@ -8,5 +8,5 @@ cv_pdf: resume.pdf
 description: 
 toc:
   sidebar: left
-redirect: https://hrish.in/assets/pdf/resume.pdf
+redirect: https://hrish.in/assets/pdf/profile/resume.pdf
 ---
