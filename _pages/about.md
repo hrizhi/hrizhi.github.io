@@ -6,7 +6,7 @@ subtitle: Machine Learning Researcher @ <a href='https://www.iitr.ac.in/'>IIT-R<
 
 profile:
   align: right
-  image: prof_bg.png
+  image: profile/mountain.jpeg
   image_circular: false # crops the image to make it circular
   # more_info: 
 
@@ -19,11 +19,11 @@ Hey, thanks for stopping by! 👋
 
 I'm **Hrishikesh Singh** <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
 
-My research interests involve `deep learning`, `reinforcement learning`, *in* `computer vision`, `game-theory` and `natural-language-processing`.   
+My research interests involve `deep learning`, `reinforcement learning`, *in* `computer vision`, `game-theory` and `natural-language-processing`.
 
-Currently working on `IRSTD` *i.e.* Infrared Small Target Detection *and* financial `portfolio-optimization` problems. 
+Currently working on Infrared Small Target Detection (`IRSTD`) *and* financial `portfolio-optimization` problems.
 
-Kindly reach out if I can be of any help to you. 
+Kindly reach out if I can be of any help to you.
 
 <audio id="pronunciation">
   <source src="assets/audio/name.mp3" type="audio/mpeg">
