@@ -1,26 +1,86 @@
 ---
 layout: default
 ---
-<!-- _layouts/summary.html -->
 
 {% if page._styles %}
-<!-- Page/Post style -->
+  <!-- Page/Post style -->
   <style type="text/css">
     {{ page._styles }}
-</style>
+  </style>
 {% endif %}
 
 {% include scripts/mathjax_macros.html %}
 
 <!-- hack to inherit CSS styles to suppress list counts -->
-<!-- <div class="publications">
-    {% bibliography --file summaries --query @*[id={{page.bib_id}}] %}
-</div> -->
 
-<div class="publications">
-  {% bibliography --file summaries.bib --template custom_bib --query @*[id={{ page.bib_id }}] %}
+<!-- Summary by categories -->
+<h1>Summaries</h1>
+
+<!-- Reinforcement Learning (RL) Section -->
+<h2>Reinforcement Learning (RL)</h2>
+<div class="rl-summaries">
+  {% for post in site.posts %}
+    {% if post.category == "RL" %}
+      <div class="summary-entry">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="publications">
+          {% bibliography --file summaries.bib --template custom_bib --query @*[id={{ post.bib_id }}] %}
+        </div>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
+<!-- Deep Learning Section -->
+<h2>Deep Learning</h2>
+<div class="dl-summaries">
+  {% for post in site.posts %}
+    {% if post.category == "Deep Learning" %}
+      <div class="summary-entry">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="publications">
+          {% bibliography --file summaries.bib --template custom_bib --query @*[id={{ post.bib_id }}] %}
+        </div>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Computer Vision Section -->
+<h2>Computer Vision</h2>
+<div class="cv-summaries">
+  {% for post in site.posts %}
+    {% if post.category == "Computer Vision" %}
+      <div class="summary-entry">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="publications">
+          {% bibliography --file summaries.bib --template custom_bib --query @*[id={{ post.bib_id }}] %}
+        </div>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Uncategorized Section -->
+<h2>Uncategorized</h2>
+<div class="uncategorized-summaries">
+  {% for post in site.posts %}
+    {% if post.category == nil or post.category == "" %}
+      <div class="summary-entry">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="publications">
+          {% bibliography --file summaries.bib --template custom_bib --query @*[id={{ post.bib_id }}] %}
+        </div>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Post Content Section -->
 <div class="post">
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
@@ -40,4 +100,3 @@ layout: default
     {% include giscus.html %}
   {%- endif -%}
 </div>
-
