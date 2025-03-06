@@ -17,11 +17,13 @@ social: true # includes social icons at the bottom of the page
 
 Hello👋,
 
-I'm **Hrishikesh Singh** <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span>, a `machine learning researcher` specializing in `computer vision`, `deep learning`, and `reinforcement learning`, with a current focus on `infrared small target detection`. My work involves developing AI-driven solutions for real-world challenges in defense and finance, leveraging synthetic data pipelines and advanced deep learning techniques to improve model accuracy in complex environments.
+I'm **Hrishikesh Singh** <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span>, a `machine learning researcher` specializing in `computer vision`, `deep learning`, and `reinforcement learning`, with a current focus on `infrared small target detection`. 
+
+My work involves developing AI-driven solutions for real-world challenges in defense and finance, leveraging synthetic data pipelines and advanced deep learning techniques to improve model accuracy in complex environments.
 
 Previously, I have worked on AI-powered geospatial analysis, mobile mapping, and infrastructure modeling, contributing to large-scale projects involving LiDAR, 3D topographic mapping, and GIS integration. I have also been involved in research on `natural language processing` and `causal-AI`, exploring AI applications across multiple domains.
 
-[Get in touch](https://hrish.in/contact/)
+[Get in touch](https://hrish.in/contact/).
 
 <audio id="pronunciation">
   <source src="assets/audio/name.mp3" type="audio/mpeg">
