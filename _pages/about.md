@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Machine Learning Researcher @ <a href='https://www.iitr.ac.in/'>IIT-R</a>
+subtitle: Machine Learning Researcher, DRDO & <a href='https://www.iitr.ac.in/'>IIT Roorkee</a>
 
 profile:
   align: right
@@ -15,15 +15,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey, thanks for stopping by! 👋
+Hello👋,
 
-I'm **Hrishikesh Singh** <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span> and I help machines learn visually and verbally, so they can help us solve our problems more efficiently.
+I'm **Hrishikesh Singh** <span onclick="document.getElementById('pronunciation').play()" style="cursor: pointer;"> (*pronunciation*:🔊) </span>, a `machine learning researcher` specializing in `computer vision`, `deep learning`, and `reinforcement learning`, with a current focus on `infrared small target detection`. My work involves developing AI-driven solutions for real-world challenges in defense and finance, leveraging synthetic data pipelines and advanced deep learning techniques to improve model accuracy in complex environments.
 
-My research interests involve `deep learning`, `reinforcement learning`, *in* `computer vision`, `game-theory` and `natural-language-processing`.
+Previously, I have worked on AI-powered geospatial analysis, mobile mapping, and infrastructure modeling, contributing to large-scale projects involving LiDAR, 3D topographic mapping, and GIS integration. I have also been involved in research on `natural language processing` and `causal-AI`, exploring AI applications across multiple domains.
 
-Currently working on Infrared Small Target Detection (`IRSTD`) *and* financial `portfolio-optimization` problems.
-
-Kindly reach out if I can be of any help to you.
+[Get in touch](https://hrish.in/contact/)
 
 <audio id="pronunciation">
   <source src="assets/audio/name.mp3" type="audio/mpeg">

@@ -3,7 +3,7 @@ layout: page
 permalink: /library/
 title: Library
 description: 
-nav: true
+nav: false
 nav_order: 6
 toc:
     sidebar: left

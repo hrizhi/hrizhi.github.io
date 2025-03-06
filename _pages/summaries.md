@@ -3,7 +3,7 @@ layout: page
 permalink: /summaries/
 title: ML Paper Summaries
 description: >
-nav: true
+nav: false
 nav_order: 3
 ---
 
