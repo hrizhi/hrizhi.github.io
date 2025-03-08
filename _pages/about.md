@@ -6,7 +6,7 @@ subtitle: Machine Learning Researcher, DRDO & <a href='https://www.iitr.ac.in/'>
 
 profile:
   align: right
-  image: profile/mountain.jpeg
+  image: profile/fog.jpeg
   image_circular: false # crops the image to make it circular
   # more_info: 
 
