@@ -23,7 +23,7 @@ My work involves developing AI-driven solutions for real-world challenges in def
 
 Previously, I have worked on AI-powered geospatial analysis, mobile mapping, and infrastructure modeling, contributing to large-scale projects involving LiDAR, 3D topographic mapping, and GIS integration. I have also been involved in research on `natural language processing` and `causal-AI`, exploring AI applications across multiple domains.
 
-[Get in touch](https://hrish.in/contact/).
+[**Get in touch**](https://hrish.in/contact/).
 
 <audio id="pronunciation">
   <source src="assets/audio/name.mp3" type="audio/mpeg">
