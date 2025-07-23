@@ -8,5 +8,5 @@ cv_pdf: resume_2025.pdf
 description: 
 toc:
   sidebar: left
-redirect: https://hrishikeshh.github.io/assets/pdf/profile/resume_2025.pdf
+redirect: https://hrishi.in/assets/pdf/profile/resume_2025.pdf
 ---
