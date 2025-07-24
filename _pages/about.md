@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: Machine Learning Researcher, DRDO & <a href='https://www.iitr.ac.in/'>IIT Roorkee</a>
+subtitle: Research Fellow @ <a href='https://www.iitr.ac.in/'>IIT Roorkee</a> & DRDO
 
 profile:
   align: right
-  image: profile/fog.jpeg
+  image: profile/HyPic.jpg
   image_circular: false # crops the image to make it circular
   # more_info: 
 
