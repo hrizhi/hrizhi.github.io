@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Fellow at <a href='https://www.iitr.ac.in/'>IIT Roorkee</a> & DRDO
+subtitle: Research Fellow at <a href='https://www.iitr.ac.in/'>IIT Roorkee</a> - DRDO
 
 profile:
   align: right
